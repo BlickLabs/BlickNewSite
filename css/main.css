@@ -312,7 +312,10 @@ button:active{
 }
 .border-left-services{
 	border-left: solid 2px #3d6fb6;
-	margin-top: 100px;
+}
+.services-header{
+		margin-top: 80px;
+		margin-bottom: 10px;
 }
 .right-header{
 	padding-left: 30px;
@@ -548,14 +551,15 @@ button:active{
 	transition: all 0.4s linear;
 }
 .logo-project-1{
-	width: 190px;
+	width: 175px;
 	height: auto;
 	margin: auto;
 	padding-top: 20px;
+	margin-bottom: 20px;
 
 }
 .logo-project-2{
-	width: 200px;
+	width: 270px;
 	height: auto;
 	margin: auto;
 	padding-top: 20px;
@@ -566,6 +570,7 @@ button:active{
 	height: auto;
 	margin: auto;
 	padding-top: 20px;
+	margin-bottom: 10px;
 
 }
 .logo-project-4{
@@ -573,6 +578,7 @@ button:active{
 	height: auto;
 	margin: auto;
 	padding-top: 20px;
+	margin-bottom: 10px;
 
 }
 .logo-project-5{
@@ -609,6 +615,7 @@ button:active{
 .overlay-description{
 	background-color: rgba(255,255,255,0.6);
 	margin: 110px 80px;
+	height: 185px;
 }
 .list-inline{
 	margin:auto;
@@ -627,6 +634,10 @@ button:active{
 }
 .services-box{
 	padding-left: 20px;
+	padding-right: 120px;
+}
+.services-box-title{
+	padding-left: 0px;
 	padding-right: 120px;
 }
 .services-box-two{
@@ -703,4 +714,11 @@ a:hover, a:focus{
 	border-radius: 2px !important;
 	margin-top: 10px !important;
 	color: #FFF !important;
+}
+.close-img{
+	font-size: 60px;
+	font-weight: 700;
+}
+.close{
+	margin-right: -150px;
 }
