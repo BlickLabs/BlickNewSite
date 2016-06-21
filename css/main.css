@@ -62,6 +62,7 @@ button:active{
 	.lu-new-feature h3{
 		font-size: 20px;
 	}
+
 }
 
 
@@ -210,7 +211,12 @@ button:active{
 	-moz-background-size: cover;
 	background-size: cover;
 	color: #fff;
+	height: 100vh;
 }
+	.info-mobile{
+		padding: 0px;
+		display: none;
+	}
 @media (min-width: 991px) {
 	.lu-contact{
 		background: url('../img/foto-2.jpg') no-repeat center center fixed;
@@ -417,7 +423,7 @@ button:active{
 	opacity: 1
 }
 .project-1{
-	background: url('../img/portfolio/aerial.png') no-repeat center center;
+	background: url('../img/portfolio/Foto-1.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -428,7 +434,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-1:hover{
-	background: url('../img/portfolio/aerial-2.png') no-repeat center center;
+	background: url('../img/portfolio/Foto-1-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -439,7 +445,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-2{
-		background: url('../img/portfolio/sentirme.png') no-repeat center center;
+		background: url('../img/portfolio/Foto-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -450,7 +456,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-2:hover{
-		background: url('../img/portfolio/sentirme-2.jpg') no-repeat center center;
+		background: url('../img/portfolio/Foto-2-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -461,7 +467,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-3{
-		background: url('../img/portfolio/javier.png') no-repeat center center;
+		background: url('../img/portfolio/Foto-3.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -472,9 +478,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-3:hover{
-		background-color: linear-gradient(
-      rgba(0, 0, 0, 1.0), 
-      rgba(0, 0, 0, 1.0)), background: url('../img/portfolio/javier.png') no-repeat center center;
+		background: url('../img/portfolio/Foto-3-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -485,7 +489,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-4{
-		background: url('../img/portfolio/emma.png') no-repeat center center;
+		background: url('../img/portfolio/Foto-4.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -496,7 +500,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-4:hover{
-		background: url('../img/portfolio/emma-2.png') no-repeat center center;
+		background: url('../img/portfolio/Foto-4-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -507,7 +511,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-5{
-		background: url('../img/portfolio/beltrami.png') no-repeat center center;;
+		background: url('../img/portfolio/Foto-5.jpg') no-repeat center center;;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -518,7 +522,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-5:hover{
-		background: url('../img/portfolio/beltrami-2.png') no-repeat center center;;
+		background: url('../img/portfolio/Foto-5-2.jpg') no-repeat center center;;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -529,7 +533,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-6{
-		background: url('../img/portfolio/amparo.png') no-repeat center center;
+		background: url('../img/portfolio/Foto-6.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -540,7 +544,7 @@ button:active{
 	transition: all 0.4s linear;
 }
 .project-6:hover{
-		background: url('../img/portfolio/amparo-2.jpg') no-repeat center center;
+		background: url('../img/portfolio/Fotos-6-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -590,11 +594,11 @@ button:active{
 
 }
 .logo-project-6{
-	width: 180px;
+	width: 140px;
 	height: auto;
 	margin: auto;
-	margin-bottom: -26px;
-	padding-top: 0px;
+	margin-bottom: 30px;
+	padding-top: 20px;
 
 }
 @media (min-width: 992px) {
@@ -721,4 +725,67 @@ a:hover, a:focus{
 }
 .close{
 	margin-right: -150px;
+}
+@media (max-width: 500px) {
+	.navigation-left{
+		padding-left: 15px;
+		padding-top: 30px;
+		text-align: center;
+	}
+	.nav-padding{
+		padding-left: 0px;
+	}
+	.overlay-description{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.no-margin-row{
+		margin-left: 0px;
+	}
+	.services-box-title{
+		padding-left: 22px;
+		padding-bottom: 20px;
+	}
+	.overlay-description-mobile{
+		background-color: rgba(240,240,240,1);
+		margin: 0px 0px;
+		height: 165px;
+		opacity: 1;
+	}
+	.info-mobile{
+		padding: 0px;
+		display: block;
+	}
+	.logo-project-1{
+		width: 100px;
+	}
+	.logo-project-2{
+		width: 150px;
+	}
+	.logo-project-3{
+		width: 60px;
+	}
+	.logo-project-4{
+		width: 130px;
+	}
+	.logo-project-5{
+		width: 100px;
+	}
+	.logo-project-6{
+		width: 70px;
+	}
+
+	.social-list{
+		font-size: 15px !important;
+	}
+	.close{
+		margin-right: 0px;
+	}
+	.close-img{
+		font-size: 20px;
+	}
+	.modal-content{
+		height: 100%;
+		overflow-y: scroll;
+	}
 }
