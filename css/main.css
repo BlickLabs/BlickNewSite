@@ -726,18 +726,37 @@ a:hover, a:focus{
 .close{
 	margin-right: -150px;
 }
-@media (max-width: 500px) {
+@media (max-width: 680px) {
 	.navigation-left{
 		padding-left: 15px;
 		padding-top: 30px;
 		text-align: center;
 	}
+	.project-1:hover .aerial{
+	opacity: 0;
+}
+.project-2:hover .sentirmebien{
+	opacity: 0;
+}
+.project-3:hover .javier{
+	opacity: 0;
+}
+.project-4:hover .emma{
+	opacity: 0;
+}
+.project-5:hover .beltrami{
+	opacity: 0;
+}
+.project-6:hover .amparo{
+	opacity: 0;
+}
 	.nav-padding{
 		padding-left: 0px;
 	}
 	.overlay-description{
 		margin-top: 0px;
 		margin-bottom: 0px;
+		opacity: 0;
 	}
 	.no-margin-row{
 		margin-left: 0px;
